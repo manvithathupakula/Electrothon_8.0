@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import MainPage from "../components/MainPage/MainPage";
 import MissionBriefing from "@/components/MissionBriefing";
 import Prizes from "@/components/prizes/prizes";
@@ -22,10 +23,10 @@ export default function Page() {
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 1024); // lg breakpoint
     };
-    
+
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    
+
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
@@ -35,12 +36,14 @@ export default function Page() {
       {isMobile ? (
         <MissionBriefing />
       ) : (
-        <div
-          style={{
-            minHeight: "100vh",
-            background: "url('/sections/mission-briefing-bg.png') center / cover no-repeat",
-          }}
-        >
+        <div className="relative w-full min-h-screen">
+          <Image
+            src="/sections/mission-briefing-bg.webp"
+            alt="Mission Briefing Background"
+            fill
+            className="object-cover object-center -z-10"
+            priority
+          />
           <AboutUsAchievementWith3D />
         </div>
       )}
