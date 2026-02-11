@@ -54,13 +54,7 @@ const SILVER = [
 
 // 🥉 WARDENIX
 const BRONZE = [
-  {
-    name: "InsForge",
-    logo: insforgeLogo,
-    url: "https://insforge.dev",
-    alt: "InsForge Logo",
-    scale: 1.05,
-  },
+  
   {
     name: "Nullshot",
     logo: nullshot_logo,
@@ -79,6 +73,13 @@ const INKIND = [
     alt: "Balsamiq Logo",
     scale: 1.1,
     invert: true,
+  },
+  {
+    name: "InsForge",
+    logo: insforgeLogo,
+    url: "https://insforge.dev",
+    alt: "InsForge Logo",
+    scale: 1.05,
   },
   {
     name: "Interview Cake",
