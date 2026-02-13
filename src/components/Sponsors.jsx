@@ -61,7 +61,7 @@ const BRONZE = [
     url: "https://nullshot.ai",
     alt: "Nullshot Logo",
     scale: 1.05,
-  },
+  }
 {
   name: "Requestly",
   logo: requestlyLogo,
