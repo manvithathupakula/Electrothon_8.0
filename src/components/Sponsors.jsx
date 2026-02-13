@@ -19,7 +19,6 @@ import mastra_logo from "@/assets/images/mastra_logo.png";
 import iqai_logo from "@/assets/images/iqai_logo.png";
 import eventopia_logo from "@/assets/images/eventopia_logo.png";
 import n8n_logo from "@/assets/images/n8n_logo.svg";
-import requestlyLogo from "@/assets/images/requestly.png";
 import Stockedge_logo from "@/assets/images/Stockedge.webp";
 
 // ─── TIERS (LOCKED) ──────────────────────────────────
