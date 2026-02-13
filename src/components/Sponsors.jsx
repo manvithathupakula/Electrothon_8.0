@@ -62,6 +62,13 @@ const BRONZE = [
     alt: "Nullshot Logo",
     scale: 1.05,
   },
+{
+  name: "Requestly",
+  logo: requestlyLogo,
+  url: "https://requestly.com/",
+  alt: "Requestly Logo",
+  scale: 1.05,
+},
 ];
 
 // 🧰 IN-KIND (Tier 4)
